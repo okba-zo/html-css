@@ -12,28 +12,53 @@
       .search-bar {
         display: block;
       }
-      .vd-title {
-        width: 300px;
-      }
-      .vd-preview{
+      .vd-preview {
         width: 300px;
         display: inline-block;
         vertical-align: top;
         margin-right: 15px;
+      }
+      .channel-pfp{
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+      .vd-info{
+        display: inline-block;
+        width: 200px;
+      }
+      .pfp{
+        width: 100%;
+      }
+      .vd-title{
+        margin-top: 0;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
     <div class="vd-preview">
-      <img
-        class="thumbnail"
-        src="https://picsum.photos/640/360"
-        alt="Thumbnail"
-      />
-      <p class="vd-title">the doors and their secrets</p>
-      <p class="vd-author">mark linen</p>
-      <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+      <div>
+        <img
+          class="thumbnail"
+          src="https://picsum.photos/640/360"
+          alt="Thumbnail"
+        />
+      </div>
+      <div>
+        <div class="channel-pfp">
+          <img
+            class="pfp"
+            src="https://i.pravatar.cc/64"
+            alt="Thumbnail"
+          />
+        </div>
+        <div class="vd-info">
+          <p class="vd-title">the doors and their secrets</p>
+          <p class="vd-author">mark linen</p>
+          <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
     <div class="vd-preview">
       <img
@@ -45,6 +70,5 @@
       <p class="vd-author">sofia clark</p>
       <p class="vd-stats">1.2M views &#183; 2 months ago</p>
     </div>
-
   </body>
 </html>
