@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      p{
+        font-family: "Roboto", arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
       .thumbnail {
         width: 300px;
         display: block;
@@ -18,27 +29,43 @@
         vertical-align: top;
         margin-right: 15px;
       }
-      .channel-pfp{
+      .channel-pfp {
         display: inline-block;
         width: 50px;
         vertical-align: top;
       }
-      .vd-info{
+      .vd-info {
         display: inline-block;
         width: 200px;
       }
-      .pfp{
-        width: 100%;
+      .pfp {
+        width: 40px;
+        border-radius: 50%;
       }
-      .vd-title{
+      .vd-title {
         margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+      .vd-author, .vd-stats {
+        margin: 0;
+        font-size: 12px;
+        color: #606060;
+      }
+      .vd-author{
+        margin-bottom: 4px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
     <div class="vd-preview">
-      <div>
+      <div class="thumbnail-row">
         <img
           class="thumbnail"
           src="https://picsum.photos/640/360"
@@ -47,11 +74,7 @@
       </div>
       <div>
         <div class="channel-pfp">
-          <img
-            class="pfp"
-            src="https://i.pravatar.cc/64"
-            alt="Thumbnail"
-          />
+          <img class="pfp" src="https://i.pravatar.cc/64" alt="Thumbnail" />
         </div>
         <div class="vd-info">
           <p class="vd-title">the doors and their secrets</p>
@@ -61,14 +84,23 @@
       </div>
     </div>
     <div class="vd-preview">
-      <img
-        class="thumbnail"
-        src="https://picsum.photos/620/360"
-        alt="Thumbnail"
-      />
-      <p class="vd-title">take a closer look into the nature</p>
-      <p class="vd-author">sofia clark</p>
-      <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+      <div class="thumbnail-row">
+        <img
+          class="thumbnail"
+          src="https://picsum.photos/620/360"
+          alt="Thumbnail"
+        />
+      </div>
+      <div>
+        <div class="channel-pfp">
+          <img class="pfp" src="https://i.pravatar.cc/54" alt="Thumbnail" />
+        </div>
+        <div class="vd-info">
+          <p class="vd-title">take a closer look into the nature</p>
+          <p class="vd-author">sofia clark</p>
+          <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
