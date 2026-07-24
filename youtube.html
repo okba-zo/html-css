@@ -11,26 +11,19 @@
       rel="stylesheet"
     />
     <style>
-      p{
+      p {
         font-family: "Roboto", arial;
         margin-top: 0;
         margin-bottom: 0;
       }
       .thumbnail {
-        width: 300px;
-        height: 170px;
-        display: block;
+        width: 100%;
+        height: 100%;
       }
       .search-bar {
         display: block;
       }
-      .vd-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-      }
-      .vd-info-grid{
+      .vd-info-grid {
         display: grid;
         grid-template-columns: 50px 1fr;
       }
@@ -48,53 +41,138 @@
       .thumbnail-row {
         margin-bottom: 12px;
       }
-      .vd-author, .vd-stats {
+      .vd-author,
+      .vd-stats {
         margin: 0;
         font-size: 12px;
         color: #606060;
       }
-      .vd-author{
+      .vd-author {
         margin-bottom: 4px;
+      }
+      .vd-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 30px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
-    <div class="vd-preview">
-      <div class="thumbnail-row">
-        <img
-          class="thumbnail"
-          src="https://picsum.photos/640/360"
-          alt="Thumbnail"
-        />
-      </div>
-      <div class="vd-info-grid">
-        <div class="channel-pfp">
-          <img class="pfp" src="https://i.pravatar.cc/64" alt="Thumbnail" />
+    <div class="vd-grid">
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/640/360"
+            alt="Thumbnail"
+          />
         </div>
-        <div class="vd-info">
-          <p class="vd-title">the doors and their secrets</p>
-          <p class="vd-author">mark linen</p>
-          <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/64" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">the doors and their secrets</p>
+            <p class="vd-author">mark linen</p>
+            <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="vd-preview">
-      <div class="thumbnail-row">
-        <img
-          class="thumbnail"
-          src="https://picsum.photos/620/360"
-          alt="Thumbnail"
-        />
-      </div>
-      <div class="vd-info-grid">
-        <div class="channel-pfp">
-          <img class="pfp" src="https://i.pravatar.cc/54" alt="Thumbnail" />
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/620/360"
+            alt="Thumbnail"
+          />
         </div>
-        <div class="vd-info">
-          <p class="vd-title">take a closer look into the nature</p>
-          <p class="vd-author">sofia clark</p>
-          <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/54" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">take a closer look into the nature</p>
+            <p class="vd-author">sofia clark</p>
+            <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/642/360"
+            alt="Thumbnail"
+          />
+        </div>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/63" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">the doors and their secrets</p>
+            <p class="vd-author">mark linen</p>
+            <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/615/360"
+            alt="Thumbnail"
+          />
+        </div>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/34" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">take a closer look into the nature</p>
+            <p class="vd-author">sofia clark</p>
+            <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/645/360"
+            alt="Thumbnail"
+          />
+        </div>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/61" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">the doors and their secrets</p>
+            <p class="vd-author">mark linen</p>
+            <p class="vd-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vd-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://picsum.photos/650/360"
+            alt="Thumbnail"
+          />
+        </div>
+        <div class="vd-info-grid">
+          <div class="channel-pfp">
+            <img class="pfp" src="https://i.pravatar.cc/55" alt="Thumbnail" />
+          </div>
+          <div class="vd-info">
+            <p class="vd-title">take a closer look into the nature</p>
+            <p class="vd-author">sofia clark</p>
+            <p class="vd-stats">1.2M views &#183; 2 months ago</p>
+          </div>
         </div>
       </div>
     </div>
