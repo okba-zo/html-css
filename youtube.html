@@ -30,14 +30,9 @@
         vertical-align: top;
         margin-right: 15px;
       }
-      .channel-pfp {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-      .vd-info {
-        display: inline-block;
-        width: 200px;
+      .vd-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
       .pfp {
         width: 40px;
@@ -73,7 +68,7 @@
           alt="Thumbnail"
         />
       </div>
-      <div>
+      <div class="vd-info-grid">
         <div class="channel-pfp">
           <img class="pfp" src="https://i.pravatar.cc/64" alt="Thumbnail" />
         </div>
@@ -92,7 +87,7 @@
           alt="Thumbnail"
         />
       </div>
-      <div>
+      <div class="vd-info-grid">
         <div class="channel-pfp">
           <img class="pfp" src="https://i.pravatar.cc/54" alt="Thumbnail" />
         </div>
