@@ -4,9 +4,6 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
-.search-bar {
-  display: block;
-}
 .vd-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;

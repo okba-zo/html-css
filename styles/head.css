@@ -1,0 +1,21 @@
+.yt-header{
+  height : 55px;
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+.left-section{
+  background-color : red;
+  width: 150px;
+}
+.center-section{
+  flex : 1;
+  background-color : green;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.right-section{
+  background-color : blue;
+  width: 200px;
+}
