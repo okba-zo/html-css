@@ -37,9 +37,24 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 30px;
+
+}
+@media (max-width: 750px){
+  .vd-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 751px) and (min-width: 999px) {
+  .vd-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .vd-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 .vd-time{
-  font-family: "Roboto", arial;
   font-size: 12px;
   font-weight: 500;
   padding: 4px;
