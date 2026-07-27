@@ -8,10 +8,12 @@
   <body style="height: 3000px;
   padding-top: 50px;
   padding-left: 75px;">
-    <div style="position: fixed; top:10px; right:50px; left: 50px; background-color: black;"> div 0</div>
+    <div style=" z-index: 1; position: fixed; top:10px; right:50px; left: 50px; background-color: black;"> div 0</div>
     <div style="background-color: aqua; height: 200px; width: 200px">div 1</div>
     <div style="background-color: pink; height: 200px; width: 200px">div 2</div>
     <div style="position: fixed; background-color: grey; left: 0; bottom: 0; top:50px; width: 72px;"
-  
+    <div style="left: 10px; top:10px;  position: absolute; background-color: red; color: white;">div absolute</div>
+    <!--position absolute is used to position elements relatively to parent elements-->
+    <!--zindex is used to order the appearence of elements-->
   </body>
 </html>
