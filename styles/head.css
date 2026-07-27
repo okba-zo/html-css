@@ -1,7 +1,7 @@
-.yt-header{
-  height : 55px;
-  display : flex;
-  flex-direction : row;
+.yt-header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -11,27 +11,27 @@
   border-bottom: 1px solid rgb(201, 199, 199);
   z-index: 100;
 }
-.left-section{
+.left-section {
   display: flex;
   align-items: center;
 }
-.center-section{
-  flex : 1;
+.center-section {
+  flex: 1;
   margin-left: 70px;
   margin-right: 35px;
   max-width: 500px;
   display: flex;
   align-items: center;
 }
-.ham-menu{
+.ham-menu {
   height: 20px;
   margin-left: 24px;
   margin-right: 24px;
 }
-.yt-logo{
+.yt-logo {
   height: 20px;
 }
-.search-bar{
+.search-bar {
   flex: 1;
   height: 34px;
   font-size: 16px;
@@ -40,12 +40,12 @@
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
-.search-bar::placeholder{
+.search-bar::placeholder {
   font-family: "Roboto", arial;
-  font-size:16px;
+  font-size: 16px;
   padding-left: 10px;
 }
-.search-btn{
+.search-btn {
   height: 38px;
   width: 66px;
   background-color: rgb(240, 240, 240);
@@ -53,22 +53,22 @@
   margin-left: -1px;
   margin-right: 10px;
 }
-.search-icon{
+.search-icon {
   margin-top: 4px;
   height: 25px;
 }
-.mic-btn{
+.mic-btn {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   border: none;
   background-color: rgb(240, 240, 240);
 }
-.mic-icon{
+.mic-icon {
   height: 24px;
   margin-top: 4px;
 }
-.right-section{
+.right-section {
   width: 180px;
   margin-right: 20px;
   display: flex;
@@ -76,16 +76,31 @@
   justify-content: space-between;
   flex-shrink: 0;
 }
-.upload-icon{
+.upload-icon {
   height: 24px;
 }
-.apps-icon{
+.apps-icon {
   height: 24px;
 }
-.notif-icon{
+.notif-icon {
   height: 24px;
 }
-.user-pic{
+.notif-container {
+  position: relative;
+}
+.notif-count {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(216, 9, 9);
+  color: white;
+  font-family: "roboto", arial;
+  font-size: 11px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 50%;
+
+}
+.user-pic {
   height: 32px;
   border-radius: 50%;
 }
